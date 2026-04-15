@@ -28,8 +28,8 @@ comments: false
   </article>
 {%- endfor -%}
 
-<h4>述而 Compose</h4>
-{%- assign literature_keys = "essays,poems" | split: "," -%}
+<h4>述而 Sketches</h4>
+{%- assign literature_keys = "prose,poetry" | split: "," -%}
 {%- for key in literature_keys -%}
   {%- assign section = site.data.sections[key] -%}
   {%- assign section_posts = site.posts | where: "section", key -%}

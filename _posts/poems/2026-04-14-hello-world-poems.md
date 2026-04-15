@@ -1,9 +1,9 @@
 ---
 title: Hello World
-slug: hello-world-poems
+slug: hello-world-poetry
 date: 2026-04-14 09:30:00 -0700
-section: poems
-description: First post for Poems.
+section: poetry
+description: First post for Poetry.
 ---
 
-Hello world for 乐在 Poems.
+Hello world for 忘言 Poetry.

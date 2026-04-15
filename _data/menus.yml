@@ -8,9 +8,9 @@
   url: /study/
   external: false
 
-- id: compose
-  title: 述而 Compose
-  url: /compose/
+- id: sketches
+  title: 述而 Sketches
+  url: /sketches/
   external: false
 
 # Example:

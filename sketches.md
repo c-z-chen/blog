@@ -1,20 +1,20 @@
 ---
-title: 学而 Study
-permalink: /study/
+title: 述而 Sketches
+permalink: /sketches/
 layout: page
-excerpt: 学而二分：博古与通今。
+excerpt: 述而二分：欲辨与忘言。
 comments: false
-nav_group: study
+nav_group: sketches
 ---
 
-<!-- <h4>学而 Study</h4> -->
+<!-- <h4>述而 Sketches</h4> -->
 <p>
-  文律运周，日新其业。参古定法，望今制奇。<br />
-  ‘And out of olde bokes, in good feith, / Cometh al this newe science that men lere.’
+  言者，所以在意，得意而忘言。<br />
+  ‘Heard melodies are sweet, but those unheard / Are sweeter.’
 </p>
 
-{%- assign study_keys = "past,present" | split: "," -%}
-{%- for key in study_keys -%}
+{%- assign sketches_keys = "prose,poetry" | split: "," -%}
+{%- for key in sketches_keys -%}
   {%- assign section = site.data.sections[key] -%}
   {%- assign section_posts = site.posts | where: "section", key -%}
   <article class="post-item">

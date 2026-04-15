@@ -1,15 +1,15 @@
 ---
-title: 闲而集 Essays
-permalink: /essays/
+title: 欲辨 Prose
+permalink: /prose/
 layout: page
-excerpt: 述而 Compose 分区。
+excerpt: 述而 Sketches 分区。
 comments: false
-nav_group: compose
+nav_group: sketches
 ---
 
-<h4>闲而集 Essays · 述而 Compose</h4>
+<h4>欲辨 Prose · 述而 Sketches</h4>
 
-{%- assign section_posts = site.posts | where: "section", "essays" -%}
+{%- assign section_posts = site.posts | where: "section", "prose" -%}
 {%- for post in section_posts -%}
 <article class="post-item">
   <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>

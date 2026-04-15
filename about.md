@@ -1,5 +1,5 @@
 ---
-title: About
+title: 关于 About
 permalink: /about/
 layout: page
 excerpt: Chris
