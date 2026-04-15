@@ -1,14 +1,17 @@
-- title: home
+- id: home
+  title: 主页 Home
   url: /
   external: false
 
-- title: archive
-  url: /archive/
+- id: study
+  title: 学而 Study
+  url: /study/
   external: false
 
-- title: about
-  url: /about/
-  external: false # set true if you using external link, see below
+- id: compose
+  title: 述而 Compose
+  url: /compose/
+  external: false
 
 # Example:
 # - title: github

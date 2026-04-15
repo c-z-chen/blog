@@ -1,5 +1,5 @@
 # Site settings
-title: Christopher Zechen Chen # site title
+title: C. Z. Chen # site title
 description: >- # site description
   Personal blog and digital journal of Christopher Zechen Chen. 
 lang: en-US # default lang
@@ -10,9 +10,10 @@ mode: light # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Christopher Zechen Chen # author name
+  name: 陈泽尘 Chris # author name
   bio: >- # tell to the world
-    a personal blog.
+    极深研几。<br />
+    ‘More particulars / Must justify my knowledge.’
   username: czchen # general username
   github: c-z-chen # github username
   twitter: twitter_username # twitter username

@@ -223,6 +223,19 @@
   color: $black;
 }
 
+.home-view-all {
+  margin-top: 18px;
+
+  a {
+    text-underline-offset: 5px;
+
+    &:hover,
+    &:focus {
+      color: $text-link-blue-active;
+    }
+  }
+}
+
 // List of posts
 .post-item {
   display: flex;

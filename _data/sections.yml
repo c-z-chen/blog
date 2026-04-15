@@ -1,0 +1,16 @@
+past:
+  label: "博古 Past"
+  focus: "学而 Study"
+  url: "/past/"
+present:
+  label: "通今 Present"
+  focus: "学而 Study"
+  url: "/present/"
+essays:
+  label: "闲而 Essays"
+  focus: "述而 Compose"
+  url: "/essays/"
+poems:
+  label: "乐在 Poems"
+  focus: "述而 Compose"
+  url: "/poems/"

@@ -1,7 +1,8 @@
 ---
 title: Hello World
+slug: hello-world-past
 date: 2026-04-14 09:00:00 -0700
-tags: [intro]
+section: past
 description: First post.
 ---
 
