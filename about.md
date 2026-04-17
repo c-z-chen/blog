@@ -13,3 +13,5 @@ Christopher Zechen Chen is an undergraduate student at UC Berkeley.
 陈泽尘主修英语和比较文学。
 
 Chris majors in English and Comparative Literature.
+
+联系邮箱 Email：<c_z_chen@berkeley.edu>
