@@ -8,6 +8,7 @@ nav_group: sketches
 ---
 
 <!-- <h4>述而 Sketches</h4> -->
+{%- assign locale = site.data.locales[site.active_lang] | default: site.data.locales[site.default_lang] -%}
 <p>
   言者，所以在意，得意而忘言。<br />
   ‘Heard melodies are sweet, but those unheard / Are sweeter.’
@@ -16,11 +17,12 @@ nav_group: sketches
 {%- assign sketches_keys = "prose,poetry" | split: "," -%}
 {%- for key in sketches_keys -%}
   {%- assign section = site.data.sections[key] -%}
+  {%- assign section_locale = locale.sections[key] -%}
   {%- assign section_posts = site.posts | where: "section", key -%}
   <article class="post-item">
     <h3 class="post-item-title">
       <a href="{{ section.url | relative_url }}">
-        {{ section.label }} <span> ({{ section_posts | size }} 篇)</span>
+        {{ section_locale.label | default: section.label }} <span> ({{ section_posts | size }} {{ locale.pages.sections.count_suffix | default: 'posts' }})</span>
       </a>
     </h3>
   </article>

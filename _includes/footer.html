@@ -1,7 +1,8 @@
 <footer class="footer">
-  <a class="footer_item" href="{{ '/about/' | relative_url }}">about</a>
+  {%- assign locale = site.data.locales[site.active_lang] | default: site.data.locales[site.default_lang] -%}
+  <a class="footer_item" href="{{ '/about/' | relative_url }}">{{ locale.footer.about | default: 'about' }}</a>
   <a class="footer_item" href="https://github.com/c-z-chen" target="_blank" rel="noreferrer noopener">github</a>
-  <a class="footer_item" href="{{ '/feed.xml' | relative_url }}">rss</a>
+  <a class="footer_item" href="{{ '/feed.xml' | relative_url }}">{{ locale.footer.rss | default: 'rss' }}</a>
   <span class="footer_item">&copy; {{ site.time | date: "%Y" }}</span>
   <small class="footer_copyright">
     built with

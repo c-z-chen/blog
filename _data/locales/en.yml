@@ -1,0 +1,48 @@
+# English translations and simple labels
+menus:
+  home: "Home"
+  study: "Study"
+  sketches: "Sketches"
+  about: "About"
+  translations: "Translations"
+
+pages:
+  about:
+    intro: >-
+      <p>Christopher Zechen Chen is an undergraduate student at UC Berkeley.</p>
+      <p>Chris majors in English and Comparative Literature.</p>
+      <p>Email: <a href="mailto:c_z_chen@berkeley.edu">c_z_chen@berkeley.edu</a></p>
+  translations:
+    intro: >-
+      On this the fourth day of May, new literature is celebrated in China. There is in new an unorthodoxy, so I resolved to set up this column, and use translation to assay my hand. Since words are apt to travel, significations can scarcely avoid deformation; since readers are each furnished with their own inward dispositions, the translator can but avail himself of such expedients as present themselves. I do not venture to style the following efforts as faithful, nor have I any intention of advertising them as acts of creation; working in the interstices—such is the nature of these translations.
+  home:
+    recent_posts: "Recent Posts"
+    view_all: "View all"
+  sections:
+    study: "Study"
+    sketches: "Sketches"
+    search_placeholder: "Quickly find articles by title"
+    description: "The complete list of articles by section."
+    count_suffix: "posts"
+
+footer:
+  about: "about"
+  rss: "rss"
+  back_home: "back home"
+
+sections:
+  past:
+    label: "Past"
+    focus: "Study"
+  present:
+    label: "Present"
+    focus: "Study"
+  translations:
+    label: "Translations"
+    focus: "Study"
+  prose:
+    label: "Prose"
+    focus: "Sketches"
+  poetry:
+    label: "Poetry"
+    focus: "Sketches"
