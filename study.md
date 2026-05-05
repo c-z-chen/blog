@@ -13,7 +13,7 @@ nav_group: study
   ‘And out of olde bokes, in good feith, / Cometh al this newe science that men lere.’
 </p>
 
-{%- assign study_keys = "past,present" | split: "," -%}
+{%- assign study_keys = "past,present,translations" | split: "," -%}
 {%- for key in study_keys -%}
   {%- assign section = site.data.sections[key] -%}
   {%- assign section_posts = site.posts | where: "section", key -%}

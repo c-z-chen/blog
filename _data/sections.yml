@@ -6,6 +6,10 @@ present:
   label: "通今 Present"
   focus: "学而 Study"
   url: "/present/"
+translations:
+  label: "翻译 Translations"
+  focus: "学而 Study"
+  url: "/translations/"
 prose:
   label: "欲辨 Prose"
   focus: "述而 Sketches"

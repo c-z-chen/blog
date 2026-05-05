@@ -7,7 +7,7 @@ comments: false
 nav_group: sketches
 ---
 
-<h4>欲辨 Prose · 述而 Sketches</h4>
+<!-- <h4>欲辨 Prose · 述而 Sketches</h4> -->
 
 {%- assign section_posts = site.posts | where: "section", "prose" -%}
 {%- for post in section_posts -%}

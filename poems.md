@@ -7,7 +7,7 @@ comments: false
 nav_group: sketches
 ---
 
-<h4>忘言 Poetry · 述而 Sketches</h4>
+<!-- <h4>忘言 Poetry · 述而 Sketches</h4> -->
 
 {%- assign section_posts = site.posts | where: "section", "poetry" -%}
 {%- for post in section_posts -%}
