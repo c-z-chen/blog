@@ -8,5 +8,5 @@ comments: false
 
 {%- assign locale = site.data.locales[site.active_lang] | default: site.data.locales[site.default_lang] -%}
 
-<p>{{ locale.pages.about.intro | default: site.data.locales[site.default_lang].pages.about.intro }}</p>
+{{ locale.pages.about.intro | default: site.data.locales[site.default_lang].pages.about.intro }}
 

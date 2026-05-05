@@ -88,5 +88,9 @@ languages:
   - zh
 default_lang: en
 
-# Optional: where locale data lives (we'll use _data/locales)
-locales_dir: _data/locales
+# Exclude static assets and generated files from language duplication
+exclude_from_localization:
+  - assets
+  - feed.xml
+  - sitemap.xml
+  - robots.txt

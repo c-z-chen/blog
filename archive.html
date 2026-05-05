@@ -40,7 +40,7 @@ comments: false
   <article class="post-item">
     <h3 class="post-item-title">
       <a href="{{ section.url | relative_url }}">{{ section_locale.label | default: section.label }}</a>
-      <span> ({{ section_posts | size }} 篇)</span>
+      <span> ({{ section_posts | size }} {{ locale.pages.sections.count_suffix | default: 'posts' }})</span>
     </h3>
   </article>
 {%- endfor -%}
