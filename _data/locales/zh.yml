@@ -1,0 +1,48 @@
+# Chinese translations and simple labels
+menus:
+  home: "主页"
+  study: "学而"
+  sketches: "述而"
+  about: "关于"
+  translations: "翻译"
+
+pages:
+  about:
+    intro: >-
+      <p>陈泽尘是一个在加州大学伯克利分校就读的本科生。</p>
+      <p>陈泽尘主修英语和比较文学。 </p>
+      <p>联系邮箱：<a href="mailto:c_z_chen@berkeley.edu">c_z_chen@berkeley.edu</a></p>
+  translations:
+    intro: >-
+      今天二六年五月四日，是给新文学的节日。新文学是讲究做一点不大安分的事，于是我就单开节目，借翻译来试手。文字既然可以旅行，意思也就难免变形；读者既然各有心肠，译者也只好各凭手段。既不敢自称忠实，也无意标榜创造；在夹缝里做些手脚，就是这些翻译。
+  home:
+    recent_posts: "最新文章"
+    view_all: "浏览全部"
+  sections:
+    study: "学而"
+    sketches: "述而"
+    search_placeholder: "按标题快速查找文章"
+    description: "按分区进入查看完整文章列表。"
+    count_suffix: "篇"
+
+footer:
+  about: "关于"
+  rss: "rss"
+  back_home: "返回首页"
+
+sections:
+  past:
+    label: "博古"
+    focus: "学而"
+  present:
+    label: "通今"
+    focus: "学而"
+  translations:
+    label: "翻译"
+    focus: "学而"
+  prose:
+    label: "欲辨"
+    focus: "述而"
+  poetry:
+    label: "忘言"
+    focus: "述而"

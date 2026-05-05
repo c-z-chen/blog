@@ -6,12 +6,7 @@ excerpt: Chris
 comments: false
 ---
 
-陈泽尘是一个在加州大学伯克利分校就读的本科生。
+{%- assign locale = site.data.locales[site.active_lang] | default: site.data.locales[site.default_lang] -%}
 
-Christopher Zechen Chen is an undergraduate student at UC Berkeley.
+<p>{{ locale.pages.about.intro | default: site.data.locales[site.default_lang].pages.about.intro }}</p>
 
-陈泽尘主修英语和比较文学。
-
-Chris majors in English and Comparative Literature.
-
-联系邮箱 Email：<c_z_chen@berkeley.edu>

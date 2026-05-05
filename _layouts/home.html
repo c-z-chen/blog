@@ -3,19 +3,21 @@ layout: default
 home: true
 ---
 
-<h3 class="posts-item-note" aria-label="Recent Posts">最新 Recent Posts</h3>
+{%- assign locale = site.data.locales[site.active_lang] | default: site.data.locales[site.default_lang] -%}
+<h3 class="posts-item-note" aria-label="Recent Posts">{{ locale.pages.home.recent_posts | default: 'Recent Posts' }}</h3>
 {%- for post in site.posts limit: site.number_of_posts -%}
 {%- assign section_meta = site.data.sections[post.section] -%}
+{%- assign section_locale = locale.sections[post.section] -%}
 <article class="post-item">
   <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
   <h4 class="post-item-title">
-    {% if section_meta %}[{{ section_meta.label }}] {% endif %}<a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    {% if section_meta %}[{{ section_locale.label | default: section_meta.label }}] {% endif %}<a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
   </h4>
 </article>
 {%- endfor -%}
 
 <p class="home-view-all">
   <a href="{{ '/sections/' | relative_url }}">
-    ... 浏览全部 / ... View all
+    ... {{ locale.pages.home.view_all | default: 'View all' }}
   </a>
 </p>

@@ -162,6 +162,7 @@
     <div class="trigger">
       <div class="trigger-container">
         {%- assign url = page.url -%}
+        {%- assign locale = site.data.locales[site.active_lang] | default: site.data.locales[site.default_lang] -%}
         {%- assign menus = site.data.menus -%}
         {%- if menus %}
           {%- for menu in menus -%} 
@@ -169,8 +170,9 @@
             {%- if url == menu.url or page.nav_group == menu.id -%}
               {%- assign is_active = true -%}
             {%- endif -%}
+            {%- assign menu_title = locale.menus[menu.id] | default: menu.title -%}
             {%- if is_active -%}
-              <a class="menu-link active" href="{{ menu.url | relative_url }}">{{ menu.title }}</a>
+              <a class="menu-link active" href="{{ menu.url | relative_url }}">{{ menu_title }}</a>
             {%- else -%} 
               {%- if menu.external -%}
                 <a
@@ -178,16 +180,16 @@
                   href="{{ menu.url }}"
                   target="_blank"
                   rel="noopener"
-                  >{{ menu.title }}</a
+                  >{{ menu_title }}</a
                 >
               {%- else -%}
-                <a class="menu-link" href="{{ menu.url | relative_url }}">{{ menu.title }}</a>
+                <a class="menu-link" href="{{ menu.url | relative_url }}">{{ menu_title }}</a>
               {%- endif -%} 
             {%- endif -%} 
           {%- endfor -%}
         {%- else -%}
-          <a class="menu-link {% if url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">home</a>
-          <a class="menu-link {% if url == '/about/' %}active{% endif %}" href="{{ '/about/' | relative_url }}">about</a>
+          <a class="menu-link {% if url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">{{ locale.menus.home | default: 'Home' }}</a>
+          <a class="menu-link {% if url == '/about/' %}active{% endif %}" href="{{ '/about/' | relative_url }}">{{ locale.menus.about | default: 'About' }}</a>
         {%- endif -%}
         <a class="menu-link rss" href="{{ '/feed.xml' | relative_url }}">
           <svg
@@ -209,6 +211,32 @@
             />
           </svg>
         </a>
+        {%- assign current_lang = site.active_lang | default: site.default_lang | default: site.lang -%}
+        <span class="lang-switcher" aria-label="Language switcher">
+          {%- for lang in site.languages -%}
+            {%- assign target_url = page.url -%}
+            {%- if current_lang == site.default_lang -%}
+              {%- if lang != site.default_lang -%}
+                {%- assign target_url = '/' | append: lang | append: page.url -%}
+              {%- endif -%}
+            {%- else -%}
+              {%- assign lang_prefix = '/' | append: current_lang -%}
+              {%- if lang == site.default_lang -%}
+                {%- assign target_url = page.url | remove_first: lang_prefix -%}
+                {%- if target_url == '' -%}
+                  {%- assign target_url = '/' -%}
+                {%- endif -%}
+              {%- elsif lang != current_lang -%}
+                {%- assign target_url = page.url | remove_first: lang_prefix | prepend: '/' | prepend: lang -%}
+              {%- endif -%}
+            {%- endif -%}
+            {%- if lang == current_lang -%}
+              <span class="menu-link active">{{ lang | upcase }}</span>
+            {%- else -%}
+              <a class="menu-link" hreflang="{{ lang }}" href="{{ target_url | absolute_url }}">{{ lang | upcase }}</a>
+            {%- endif -%}
+          {%- endfor -%}
+        </span>
       </div>
     </div>
   </nav>

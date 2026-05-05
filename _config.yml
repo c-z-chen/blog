@@ -2,7 +2,7 @@
 title: C. Z. Chen # site title
 description: >- # site description
   Personal blog and digital journal of Christopher Zechen Chen. 
-lang: en-US # default lang
+lang: en # default lang
 timezone: America/Los_Angeles # set your timezone
 image: /assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/c-z-chen/blog # site repo [optional]
@@ -78,3 +78,15 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-postfiles
+  - jekyll-polyglot
+
+# Internationalization (i18n) settings (jekyll-polyglot)
+# Define available languages and the default language. Add more
+# locales as needed (e.g. zh, en, fr).
+languages:
+  - en
+  - zh
+default_lang: en
+
+# Optional: where locale data lives (we'll use _data/locales)
+locales_dir: _data/locales

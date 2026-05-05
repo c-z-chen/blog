@@ -3,7 +3,7 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+<html lang="{{ page.lang | default: site.default_lang | default: site.lang }}">
 
 {% include header.html %}
 <body data-theme="{{ site.mode }}" class="notransition">
@@ -30,11 +30,12 @@ layout: compress
   {% include navbar.html %}
   <div class="wrapper">
     <main aria-label="Content">
+      {%- assign locale = site.data.locales[site.active_lang] | default: site.data.locales[site.default_lang] -%}
       <div class="not-found">
         <div class="container">
           <div class="title">404</div>
           <p class="phrase">😕 Hmm... You seem lost.</p>
-          <a class="solution" href="{{ '/' | relative_url }}">back home</a>
+          <a class="solution" href="{{ '/' | relative_url }}">{{ locale.footer.back_home | default: 'back home' }}</a>
         </div>
       </div>
     </main>  

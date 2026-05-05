@@ -34,11 +34,13 @@ layout: compress
       <article itemscope itemtype="https://schema.org/BlogPosting">
 
         <header class="header">
+          {%- assign locale = site.data.locales[site.active_lang] | default: site.data.locales[site.default_lang] -%}
           {%- assign section_meta = site.data.sections[page.section] -%}
+          {%- assign section_locale = locale.sections[page.section] -%}
           {% if section_meta %}
           <div class="tags">
             <span itemprop="keywords">
-              <a class="tag" href="{{ section_meta.url | relative_url }}">{{ section_meta.label }}</a>
+              <a class="tag" href="{{ section_meta.url | relative_url }}">{{ section_locale.label | default: section_meta.label }}</a>
             </span>
           </div>
           {% endif %}
