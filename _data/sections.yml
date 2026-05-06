@@ -10,11 +10,11 @@ translations:
   label: "翻译 Translations"
   focus: "学而 Study"
   url: "/translations/"
-prose:
-  label: "欲辨 Prose"
+essays:
+  label: "欲辨 Essays"
   focus: "述而 Sketches"
-  url: "/prose/"
-poetry:
-  label: "忘言 Poetry"
+  url: "/essays/"
+evocations:
+  label: "忘言 Evocations"
   focus: "述而 Sketches"
-  url: "/poetry/"
+  url: "/evocations/"

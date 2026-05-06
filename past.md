@@ -7,8 +7,6 @@ comments: false
 nav_group: study
 ---
 
-<!-- <h4>博古 Past · 学而 Study</h4> -->
-
 {%- assign section_posts = site.posts | where: "section", "past" -%}
 {%- for post in section_posts -%}
 <article class="post-item">

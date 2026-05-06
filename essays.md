@@ -1,15 +1,13 @@
 ---
-title: 欲辨 Prose
-permalink: /prose/
+title: 欲辨 Essays
+permalink: /essays/
 layout: page
 excerpt: 述而 Sketches 分区。
 comments: false
 nav_group: sketches
 ---
 
-<!-- <h4>欲辨 Prose · 述而 Sketches</h4> -->
-
-{%- assign section_posts = site.posts | where: "section", "prose" -%}
+{%- assign section_posts = site.posts | where: "section", "essays" -%}
 {%- for post in section_posts -%}
 <article class="post-item">
   <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>

@@ -7,7 +7,6 @@ comments: false
 nav_group: study
 ---
 
-<!-- <h4>学而 Study</h4> -->
 {%- assign locale = site.data.locales[site.active_lang] | default: site.data.locales[site.default_lang] -%}
 <p>
   文律运周，日新其业。参古定法，望今制奇。<br />

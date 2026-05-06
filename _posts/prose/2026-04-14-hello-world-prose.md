@@ -2,7 +2,7 @@
 title: 欲辨 序
 slug: hello-world-prose
 date: 2026-04-14 09:20:00 -0700
-section: prose
+section: essays
 description: First post for prose.
 ---
 

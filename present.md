@@ -7,8 +7,6 @@ comments: false
 nav_group: study
 ---
 
-<!-- <h4>通今 Present · 学而 Study</h4> -->
-
 {%- assign section_posts = site.posts | where: "section", "present" -%}
 {%- for post in section_posts -%}
 <article class="post-item">

@@ -2,7 +2,7 @@
 title: Ode to The Bottle
 slug: ode-to-the-bottle
 date: 2026-04-17 09:20:00 -0700
-section: prose
+section: essays
 description: An ode to the bottle.
 ---
 

@@ -2,7 +2,7 @@
 title: 忘言 序
 slug: hello-world-poetry
 date: 2026-04-15 09:30:00 -0700
-section: poetry
+section: evocations
 description: First post for Poetry.
 ---
 

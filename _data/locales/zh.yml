@@ -40,9 +40,9 @@ sections:
   translations:
     label: "翻译"
     focus: "学而"
-  prose:
+  essays:
     label: "欲辨"
     focus: "述而"
-  poetry:
+  evocations:
     label: "忘言"
     focus: "述而"

@@ -7,14 +7,13 @@ comments: false
 nav_group: sketches
 ---
 
-<!-- <h4>述而 Sketches</h4> -->
 {%- assign locale = site.data.locales[site.active_lang] | default: site.data.locales[site.default_lang] -%}
 <p>
   言者，所以在意，得意而忘言。<br />
   ‘Heard melodies are sweet, but those unheard / Are sweeter.’
 </p>
 
-{%- assign sketches_keys = "prose,poetry" | split: "," -%}
+{%- assign sketches_keys = "essays,evocations" | split: "," -%}
 {%- for key in sketches_keys -%}
   {%- assign section = site.data.sections[key] -%}
   {%- assign section_locale = locale.sections[key] -%}

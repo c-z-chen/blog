@@ -32,7 +32,7 @@ comments: false
 {%- endfor -%}
 
 <h4>{{ locale.pages.sections.sketches | default: 'Sketches' }}</h4>
-{%- assign literature_keys = "prose,poetry" | split: "," -%}
+{%- assign literature_keys = "essays,evocations" | split: "," -%}
 {%- for key in literature_keys -%}
   {%- assign section = site.data.sections[key] -%}
   {%- assign section_locale = locale.sections[key] -%}

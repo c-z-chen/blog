@@ -40,9 +40,9 @@ sections:
   translations:
     label: "Translations"
     focus: "Study"
-  prose:
-    label: "Prose"
+  essays:
+    label: "Essays"
     focus: "Sketches"
-  poetry:
-    label: "Poetry"
+  evocations:
+    label: "Evocations"
     focus: "Sketches"
