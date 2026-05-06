@@ -1,7 +1,7 @@
 ---
-title: 刘伶 酒德颂 - Laude Virtutis Vini (Liu Ling)
+title: 刘伶 Liu Ling：酒德颂 - Laude Virtutis Vini
 slug: liu-ling-jiu-de-song
-date: 2026-05-04 09:40:00 -0700
+date: 2026-05-04 09:50:00 -0700
 section: translations
 description: 翻译
 ---
