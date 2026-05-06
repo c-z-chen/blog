@@ -1,7 +1,7 @@
 # Site settings
-title: C. Z. Chen # site title
+title: C. Z. Chen's Blog # site title
 description: >- # site description
-  Personal blog and digital journal of Christopher Zechen Chen. 
+  A very personal blog. 
 lang: en # default lang
 timezone: America/Los_Angeles # set your timezone
 image: /assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/

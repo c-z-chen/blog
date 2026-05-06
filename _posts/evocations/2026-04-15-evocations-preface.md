@@ -1,9 +1,9 @@
 ---
 title: 忘言 序
-slug: hello-world-poetry
+slug: evocations-preface
 date: 2026-04-15 09:30:00 -0700
 section: evocations
-description: First post for Poetry.
+description: 阐明《忘言》主旨。
 ---
 
 言有二端：或欲其辨，或归于忘。
