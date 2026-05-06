@@ -1,5 +1,5 @@
 ---
-title: 无题 - Untitled
+title: 李商隐 无题 - Untitled (Li Shangyin)
 slug: li-shangyin-wu-ti
 date: 2026-05-04 09:30:00 -0700
 section: translations

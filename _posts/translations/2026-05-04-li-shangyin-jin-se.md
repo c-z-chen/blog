@@ -1,5 +1,5 @@
 ---
-title: 锦瑟 - Brocaded Zither
+title: 李商隐 锦瑟 - Brocaded Zither (Li Shangyin)
 slug: li-shangyin-jin-se
 date: 2026-05-04 09:20:00 -0700
 section: translations
