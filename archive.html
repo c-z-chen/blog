@@ -18,7 +18,7 @@ comments: false
 <ul id="search-results"></ul>
 
 <h4>{{ locale.pages.sections.study | default: 'Study' }}</h4>
-{%- assign academic_keys = "past,present" | split: "," -%}
+{%- assign academic_keys = "past,present,translations" | split: "," -%}
 {%- for key in academic_keys -%}
   {%- assign section = site.data.sections[key] -%}
   {%- assign section_locale = locale.sections[key] -%}
