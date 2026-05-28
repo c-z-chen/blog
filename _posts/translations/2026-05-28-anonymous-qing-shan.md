@@ -1,14 +1,15 @@
 ---
 title: 佚名 Anonymous：青山 - Verdurous Mount
 slug: anonymous-qing-shan
-date: 2026-05-04 09:40:00 -0700
+date: 2026-05-28 00:20:00 -0700
 section: translations
 description: 翻译一句。
 ---
 
-我问青山何日老，青山问我何时闲。 
+我问青山何日老 <br />
+青山问我何时闲 <br />
 
-I ask the verd’rous mount when ’twill be mellow
+I ask the verd’rous mount when ’twill be mellow <br />
 The verd’rous mount asks when I’ll mellow out
 
 # ---

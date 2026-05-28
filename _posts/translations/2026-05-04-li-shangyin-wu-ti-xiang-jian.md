@@ -17,7 +17,7 @@ description: 翻译
 青鸟殷勤为探看 [qīng niǎo yīn qín wèi tàn kàn]<br />
 
 **Untitled (xiāng jiàn shí nán)** <br />
-To tryst is hard, and hard too is to part<br />
+To tryst is hard and hard too is to part<br />
 East zephyrs waning blossoms fall apart<br />
 The silk worms spin their silk till they must die<br />
 The wax to ash will burn and tears will dry<br />
