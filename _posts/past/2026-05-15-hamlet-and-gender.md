@@ -1,0 +1,15 @@
+---
+title: "Hamlet and its Representation of Gender"
+slug: hamlet-and-gender
+date: 2026-05-15 20:10:00 -0700
+section: past
+description: About the representation of gender and its effects in society and on life in Hamlet.
+---
+
+It would seem that identical behaviours produce radically different social outcomes when performed by men versus women in *Hamlet*, which points to a patriarchal logic that pathologises feminine perception (whilst celebrating masculine performance). Hamlet announces his antic disposition as a strategic choice (‘I essentially am not in madness, / But mad in craft’), and his feigned madness grants him agency (he interrogates Polonius, stages *The Mousetrap*, accuses Gertrude, and kills) all whilst retaining his social status as ‘noble Hamlet’. Crucially, he possesses soliloquy (the theatrical form of interiority that Sandra Fischer rightly calls ‘the privileges of the Self’):[[1\]](#_ftn1) he explains, justifies, and insists upon himself (he gets to). For Ophelia, by contrast, she breaks, and she breaks completely. Her songs are fragments of grief and accusation; her body becomes unkempt, her hair loose (female sexual disorder). She is ‘incapable of her own distress’ (as Gertrude says of the drowned Ophelia), but one might ask: incapable for whom? Ophelia’s distress is perfectly legible (she has after all lost her father, her lover, her social standing, her future). Indeed, Ophelia’s ‘linguistic isolation is the most profound, and she is offered no means to vent her confusion’.[[2\]](#_ftn2) The gentlemen who report her madness say that her speech is ‘nothing, yet the unshaped use of it doth move / The hearers to collection; they aim at it, / And botch the words up fit to their own thoughts’. The play’s final disposition of its two mad figures completes the contrast. Hamlet dies in public, surrounded by witnesses, delivering a dying speech that appoints his successor, justifies his actions, and ensures his story will be told. ‘O good Horatio, what a wounded name, / Things standing thus unknown, shall live behind me!’. He is concerned with his legacy (with how he will be remembered, with who will tell his story). And Horatio promises to ‘speak to the yet unknowing world / How these things came about’. Even in death, he controls his narrative. Ophelia dies too, but, crucially, in report (without witnesses, without a final speech, without someone appointed to carry her meaning forward). She dies explained by others, voiceless at the last (as she lived). Amongst the flowers she had gathered (crow-flowers, nettles, daisies, and ‘long purples / That liberal shepherds give a grosser name’), the ‘grosser name’ (phallic reference) is in a way the unspoken truth the play cannot speak aloud. Ophelia dies with that unspoken knowledge on her lips and in her hands. Her herbal knowledge (which might very well have been a form of power) becomes instead her shroud.
+
+------
+
+[[1\]](#_ftnref1) Sandra K. Fischer, ‘Hearing Ophelia: Gender and Tragic Discourse in Hamlet’, *Renaissance and Reformation* 26, no. 1 (January 31, 2009): 1–10, https://doi.org/10.33137/rr.v26i1.11742.
+
+[[2\]](#_ftnref2) Ibid.
