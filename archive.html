@@ -17,32 +17,57 @@ comments: false
 
 <ul id="search-results"></ul>
 
-<h4>{{ locale.pages.sections.study | default: 'Study' }}</h4>
-{%- assign academic_keys = "past,present,translations" | split: "," -%}
-{%- for key in academic_keys -%}
-  {%- assign section = site.data.sections[key] -%}
-  {%- assign section_locale = locale.sections[key] -%}
-  {%- assign section_posts = site.posts | where: "section", key -%}
-  <article class="post-item">
-    <h3 class="post-item-title">
-      <a href="{{ section.url | relative_url }}">{{ section_locale.label | default: section.label }}</a>
-      <span> ({{ section_posts | size }} {{ locale.pages.sections.count_suffix | default: 'posts' }})</span>
-    </h3>
-  </article>
-{%- endfor -%}
+<div class="sections-switch" role="tablist" aria-label="{{ locale.pages.sections.view_switch_aria | default: 'Article views' }}">
+  <button type="button" class="sections-switch_button is-active" data-sections-view="sections" aria-pressed="true">
+    {{ locale.pages.sections.by_section | default: 'By section' }}
+  </button>
+  <button type="button" class="sections-switch_button" data-sections-view="all" aria-pressed="false">
+    {{ locale.pages.sections.by_time | default: 'By time' }}
+  </button>
+</div>
 
-<h4>{{ locale.pages.sections.sketches | default: 'Sketches' }}</h4>
-{%- assign literature_keys = "essays,evocations" | split: "," -%}
-{%- for key in literature_keys -%}
-  {%- assign section = site.data.sections[key] -%}
-  {%- assign section_locale = locale.sections[key] -%}
-  {%- assign section_posts = site.posts | where: "section", key -%}
-  <article class="post-item">
-    <h3 class="post-item-title">
-      <a href="{{ section.url | relative_url }}">{{ section_locale.label | default: section.label }}</a>
-      <span> ({{ section_posts | size }} {{ locale.pages.sections.count_suffix | default: 'posts' }})</span>
-    </h3>
-  </article>
-{%- endfor -%}
+<div id="sections-view" class="sections-view">
+  <h4>{{ locale.pages.sections.study | default: 'Study' }}</h4>
+  {%- assign academic_keys = "past,present,translations" | split: "," -%}
+  {%- for key in academic_keys -%}
+    {%- assign section = site.data.sections[key] -%}
+    {%- assign section_locale = locale.sections[key] -%}
+    {%- assign section_posts = site.posts | where: "section", key -%}
+    <article class="post-item">
+      <h3 class="post-item-title">
+        <a href="{{ section.url | relative_url }}">{{ section_locale.label | default: section.label }}</a>
+        <span> ({{ section_posts | size }} {{ locale.pages.sections.count_suffix | default: 'posts' }})</span>
+      </h3>
+    </article>
+  {%- endfor -%}
 
-<p>{{ locale.pages.sections.description | default: 'The complete list of articles by section.' }}</p>
+  <h4>{{ locale.pages.sections.sketches | default: 'Sketches' }}</h4>
+  {%- assign literature_keys = "essays,evocations" | split: "," -%}
+  {%- for key in literature_keys -%}
+    {%- assign section = site.data.sections[key] -%}
+    {%- assign section_locale = locale.sections[key] -%}
+    {%- assign section_posts = site.posts | where: "section", key -%}
+    <article class="post-item">
+      <h3 class="post-item-title">
+        <a href="{{ section.url | relative_url }}">{{ section_locale.label | default: section.label }}</a>
+        <span> ({{ section_posts | size }} {{ locale.pages.sections.count_suffix | default: 'posts' }})</span>
+      </h3>
+    </article>
+  {%- endfor -%}
+</div>
+
+<div id="all-view" class="sections-view" hidden>
+  <h4>{{ locale.pages.sections.all_title | default: 'All articles' }}</h4>
+  {%- for post in site.posts reversed -%}
+    {%- assign section_meta = site.data.sections[post.section] -%}
+    {%- assign section_locale = locale.sections[post.section] -%}
+    <article class="post-item">
+      <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
+      <h3 class="post-item-title">
+        {% if section_meta %}[{{ section_locale.label | default: section_meta.label }}] {% endif %}<a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </h3>
+    </article>
+  {%- endfor -%}
+</div>
+
+<p class="sections-description">{{ locale.pages.sections.description | default: 'Switch between section view and a chronological list of all articles.' }}</p>

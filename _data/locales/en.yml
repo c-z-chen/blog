@@ -22,7 +22,11 @@ pages:
     study: "Study"
     sketches: "Sketches"
     search_placeholder: "Quickly find articles by title"
-    description: "The complete list of articles by section."
+    view_switch_aria: "Article views"
+    by_section: "By section"
+    by_time: "By time"
+    all_title: "All articles"
+    description: "Switch between section view and a chronological list of all articles."
     count_suffix: "posts"
 
 footer:

@@ -22,7 +22,11 @@ pages:
     study: "学而"
     sketches: "述而"
     search_placeholder: "按标题快速查找文章"
-    description: "按分区进入查看完整文章列表。"
+    view_switch_aria: "文章视图"
+    by_section: "按分区"
+    by_time: "按时间"
+    all_title: "全部文章"
+    description: "在分区视图和按时间排序的全部文章列表之间切换。"
     count_suffix: "篇"
 
 footer:

@@ -41,4 +41,51 @@
       json: "{{ '/assets/search.json' | relative_url }}",
     });
   </script>
+  <script>
+    (() => {
+      const storageKey = 'sections-view';
+      const buttons = Array.from(document.querySelectorAll('[data-sections-view]'));
+      const panels = {
+        sections: document.getElementById('sections-view'),
+        all: document.getElementById('all-view'),
+      };
+
+      const updateHash = (view) => {
+        const nextHash = view === 'all' ? '#all' : '#sections';
+        if (window.location.hash !== nextHash) {
+          window.history.replaceState(null, '', nextHash);
+        }
+      };
+
+      const setView = (view) => {
+        const nextView = panels[view] ? view : 'sections';
+
+        Object.entries(panels).forEach(([name, panel]) => {
+          if (panel) {
+            panel.hidden = name !== nextView;
+          }
+        });
+
+        buttons.forEach((button) => {
+          const isActive = button.dataset.sectionsView === nextView;
+          button.classList.toggle('is-active', isActive);
+          button.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+        });
+
+        localStorage.setItem(storageKey, nextView);
+        updateHash(nextView);
+      };
+
+      const initialView =
+        window.location.hash === '#all'
+          ? 'all'
+          : localStorage.getItem(storageKey) || 'sections';
+
+      buttons.forEach((button) => {
+        button.addEventListener('click', () => setView(button.dataset.sectionsView));
+      });
+
+      setView(initialView);
+    })();
+  </script>
 {%- endif -%}
