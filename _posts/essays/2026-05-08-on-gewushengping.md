@@ -6,15 +6,26 @@ section: essays
 description: 什么叫做歌舞升平？一篇看歌舞电影引发的思考。
 ---
 
-Then jump for joy and gaily bound,<br />
-The truth is found – the truth is found!<br />
-Set bells a-ringing through the air –<br />
-Ring here and there and everywhere –<br />
-And echo forth the joyous sound,<br />
-The truth is found – the truth is found! <br />
-–Princess Ida
+--- Work in progress ... ---
+
+> Tripping hither, tripping thither,<br />
+> Nobody knows why or whither;<br />
+> We must dance and we must sing<br />
+> Round about our fairy ring!<br />
+— Iolanthe, Act I, Gilbert & Sullivan
 
 这向时新看 *A Date with Judy*，那么好，叫我又克制不了自己，只能去重看不少 Fred Astaire 的金粉笙歌，真是喜欢；转而又继续看了其他一些翠翠红红莺莺燕燕情情爱爱暮暮朝朝的美国歌舞片。不由得由衷地感叹：人家不作兴搞公摊面积我们都晓得；但不明白，就算歌舞升平，什么名堂，怎么也要比我们大个那么些一两平！
+
+歌舞升平是好词吗？好像不是。文王之初，天下诵而歌舞之。为什么？有德啊，文王！你躬自菲薄，治致升平之德。
+
+
+元·陆文圭《<词源>跋》：“淳祐、景定间，王邸侯馆，歌舞升平，居生处乐，不知老之将至。”  
+
+那就是，兵荒马乱、四面楚歌，才是好的？
+
+歌舞升平是愚蠢的。不傻，怎么叫歌舞升平呢？但是愚蠢是好词吗？好像是的。
+
+
 
 ……
 
@@ -172,14 +183,3 @@ Perhaps, in Trial by Jury:
 > The knell is sounded<br />
 > Of grief and woe.<br />
 
-歌舞升平是愚蠢的。不傻，怎么叫歌舞升平呢？
-
-歌舞升平是好词吗？好像不是。
-
-那就是，兵荒马乱、四面楚歌，才是好的？
-
-《[左传](https://baike.baidu.com/item/左传/371757?fromModule=lemma_inlink)·襄公三十一年》：“文王之初，天下诵而歌舞之。”汉·[张衡](https://baike.baidu.com/item/张衡/8398?fromModule=lemma_inlink)《[东京赋](https://baike.baidu.com/item/东京赋/11048244?fromModule=lemma_inlink)》：“躬自菲薄，治致升平之德。” [1]
-
-元·陆文圭《<词源>跋》：“淳祐、景定间，王邸侯馆，歌舞升平，居生处乐，不知老之将至。”  
-
-但是愚蠢是好词吗？好像是的。

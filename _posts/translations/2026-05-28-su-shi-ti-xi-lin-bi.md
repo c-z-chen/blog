@@ -6,11 +6,13 @@ section: translations
 description: 《题西林壁》翻译。
 ---
 
+《题西林壁》<br />
 横看成岭侧成峰 <br />
 远近高低各不同 <br />
 不识庐山真面目 <br />
 只缘身在此山中
 
+Written on Xilin Wall<br />
 Afront one sees a ridge aside it peaks <br />
 At odds before behind above below <br />
 One cannot see the truth of Mount Lu’s cheeks <br />

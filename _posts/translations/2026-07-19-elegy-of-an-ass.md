@@ -8,7 +8,7 @@ description:
 
 吾忆昔得太行山，一场差样：天色漭漭荡荡，路遥跷跷峃峃；碎石里欲倒不倒，悬崖处踉踉跄跄；投至下得山来，直得魂飞胆丧。
 
-I do recollect in days of yore, when I acquired you upon the Taixing Mountains, a spectacle of surpassing singularity: the firmament hung vast and vacillating in its turbid immensity; the path stretched prodigiously precipitous and protuberant with peril. Amidst the fragmented lapilli you were ever on the verge of collapse yet resolutely upright; upon the vertiginous precipices you did stagger and stumble in most pitiable ataxia. When at length we descended from that formidable eminence, my guts took flight and my galls were utterly annihilated.
+I do recollect in days of yore, when I acquired you upon the Taihang Mountains, a spectacle of surpassing singularity: the firmament hung vast and vacillating in its turbid immensity; the path stretched prodigiously precipitous and protuberant with peril. Amidst the fragmented lapilli you were ever on the verge of collapse yet resolutely upright; upon the vertiginous precipices you did stagger and stumble in most pitiable ataxia. When at length we descended from that formidable eminence, my guts took flight and my galls were utterly annihilated.
 
 又忆得向阳子江边，不肯上舩：千堆万托，向后向前；两耳卓朔，四蹄拳挛。教人随后行棓，吾乃向前自撁。烂缰绳一拽拽断，穷醋大一闪闪翻。踏碎艎板，筑损舩舷；蘸湿鞋底，砦破衫肩。更被傍人大笑，弄却多小酸寒。
 
@@ -48,4 +48,4 @@ If in your next incarnation you should be reborn as a human, return once more in
 
 教汝托生之处，凡有数般：莫生官人家，轭驮入长安；莫生军将家，打球力虽摊；莫生陆脚家，终日受皮鞭；莫生和尚家，道汝罪弥天。愿汝生于田舍家，且得共男女一般看。
 
-I counsel you concerning the places of your metempsychosis, and there are several varieties to be eschewed: Be not born into the household of bureaucratic ranks, lest you have to bear the yoke into Chang’an. Be not born into the family of military ranks, lest you exhaust your strength in polo. Be not born into the house of a foot-traveller, lest you endure the whip from dawn to dusk. Be not born into the dwelling of a monk, lest they declare your sins offends the heaven. Rather, may you be born into a rustic farmhouse, where you shall be regarded with the same affection as they do their own sons and daughters.
+I counsel you concerning the places of your metempsychosis, and there are several varieties to be eschewed: Be not born into the houses of bureaucratic ranks, lest you have to bear the yoke into Chang’an. Be not born into the families of military ranks, lest you exhaust your strength in polo. Be not born into the houses of foot-travellers, lest you endure the whip from dawn to dusk. Be not born into the dwellings of monks, lest they declare your sins offends the heaven. Rather, may you be born into a rustic farmhouse, where you shall be regarded with the same affection as they do their own sons and daughters.

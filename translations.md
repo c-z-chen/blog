@@ -10,6 +10,12 @@ lang: en
 
 {%- assign locale = site.data.locales[site.active_lang] | default: site.data.locales[site.default_lang] -%}
 
+> What is translation? On a platter<br />
+> A poet's pale and glaring head,<br />
+> A parrot's screech, a monkey's chatter,<br />
+> And profanation of the dead.<br />
+> — Vladimir Nabokov
+
 <p>{{ locale.pages.translations.intro | default: site.data.locales[site.default_lang].pages.translations.intro }}</p>
 
 {%- assign section_posts = site.posts | where: "section", "translations" -%}
