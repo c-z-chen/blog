@@ -2,8 +2,8 @@
 title: 佚名 Anonymous：祭驴文 Elegy of an Ass
 slug: elegy-of-an-ass
 date: 2026-07-19 10:00:00 -0700
-section: past
-description: 
+section: translations
+description: A translation of the Elegy of an Ass (敦煌寫本 S.1477), a classical Chinese text lamenting the death of a beloved donkey。
 ---
 
 吾忆昔得太行山，一场差样：天色漭漭荡荡，路遥跷跷峃峃；碎石里欲倒不倒，悬崖处踉踉跄跄；投至下得山来，直得魂飞胆丧。
